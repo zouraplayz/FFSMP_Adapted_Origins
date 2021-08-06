@@ -1,0 +1,16 @@
+{
+    "type": "origins:fire_projectile",
+    "entity_type": "minecraft:snowball",
+    "cooldown": 20,
+	"sound": "minecraft:entity.snowball.throw",
+	"key": {
+        "key": "key.origins.primary_active",
+        "continuous": false
+	},
+    "hud_render": {
+        "should_render": true,
+        "bar_index": 5
+    },
+    "name": "Painful Pranks",
+    "description": "Snowballs thrown by you have sharp and/or hard surprises inside, increasing the damage they do by 3 hearts. You can create and throw magic snowballs with your primary key."
+}

@@ -1,0 +1,37 @@
+{
+  "type": "origins:active_self",
+  "key": {
+    "key": "key.origins.secondary_active"
+  },
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {    
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "minecraft:slow_falling",
+          "amplifier": 0,
+          "duration": 20
+        }
+      },
+      {
+        "type": "origins:add_velocity",
+        "z": 2,
+        "space": "local"
+      }
+    ]
+  },
+  "cooldown": 80,
+  "hud_render": {
+	"should_render": true,
+    "bar_index": 1
+  },
+  "condition": {
+		"type": "origins:fluid_height",
+        "fluid": "minecraft:water",
+        "comparison": ">",
+        "compare_to": 0
+  },
+  "name": "Emperor's Glide",
+  "description": "After defeating the Ender Dragon, you are now able to glide safely after propeling."
+}

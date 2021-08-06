@@ -1,0 +1,30 @@
+{
+  "type": "origins:stacking_status_effect",
+  "name": "Arctic Dweller",
+  "description": "You gain strength and resistance in cold biomes.",
+  "min_stacks": -10,
+  "max_stacks": 3,
+  "duration_per_stack": 150,
+  "effects": [
+      {
+          "effect": "minecraft:resistance",
+          "is_ambient": true,
+          "show_particles": false,
+          "show_icon": true
+      },
+      {
+          "effect": "minecraft:strength",
+          "is_ambient": true,
+          "show_particles": false,
+          "show_icon": true
+      }
+  ],
+  "condition": {
+      "type": "origins:biome",
+      "condition": {
+          "type": "origins:temperature",
+          "comparison": "<=",
+          "compare_to": 0.3
+      }
+  }
+}

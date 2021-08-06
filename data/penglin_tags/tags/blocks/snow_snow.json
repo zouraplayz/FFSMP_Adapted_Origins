@@ -1,0 +1,13 @@
+{
+	"replace": false,
+	"values": [
+		"minecraft:ice",
+		"minecraft:packed_ice",
+		"minecraft:blue_ice",
+		"minecraft:frosted_ice",
+		"minecraft:snow_block",
+		"minecraft:snow",
+		"byg:frost_magma",
+		"terrarianslimes:ice_slime_block"
+	]
+}

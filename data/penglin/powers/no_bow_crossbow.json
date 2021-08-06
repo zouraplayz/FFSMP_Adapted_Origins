@@ -1,0 +1,23 @@
+{
+	"type":"origins:prevent_item_use",
+	"name":"Flippers",
+	"description":"Using a bow or crossbow isnearly impossible,these weapons are not for you.",
+	"item_condition": {
+		"type":"origins:or",
+		"conditions": [
+				{
+					"type":"origins:ingredient",
+					"ingredient": {
+						"item":"minecraft:bow"
+					}
+				},
+				{
+					"type":"origins:ingredient",
+					"ingredient": {
+						"item":"minecraft:crossbow"
+					}
+				}
+		]
+	}
+}
+

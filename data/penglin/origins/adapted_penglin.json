@@ -1,0 +1,20 @@
+{
+	"powers": [
+		"penglin:semi_aquatic_adapt",
+		"penglin:arctic_dweller_adapt",
+		"penglin:belly_slide",
+		"penglin:snowball_throw_adapt",
+		"penglin:snow_damage_hidden",
+		"penglin:adapted_emperors_glide",
+		"penglin:piscivore_adapt",
+		"penglin:overheat",
+		"penglin:smol_peng",
+		"penglin:icy_aura"
+	],
+	"icon": "minecraft:blue_ice",
+	"order": 10,
+	"impact": 2,
+	"name": "Adapted Penglin",
+	"description": "After defeating the Ender Dragon, you become even more mischievous!",
+	"unchoosable": false
+}

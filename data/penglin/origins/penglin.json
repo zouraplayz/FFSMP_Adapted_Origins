@@ -1,0 +1,25 @@
+{
+	"powers": [
+		"penglin:semi_aquatic",
+		"penglin:arctic_dweller",
+		"penglin:belly_slide",
+		"penglin:snowball_throw",
+		"penglin:snow_damage_hidden",
+		"penglin:propel",
+		"penglin:piscivore",
+		"penglin:overheat",
+		"penglin:no_bow_crossbow",
+		"penglin:smol_peng",
+		"penglin:icy_aura"
+	],
+	"icon": "minecraft:blue_ice",
+	"order": 10,
+	"impact":2,
+	"name": "Penglin",
+	"description": "Mischievous semi-aquatic bird people who love the cold and REALLY hate fire.",
+	"upgrades": {
+		"condition": "minecraft:end/kill_dragon",
+		"origin": "penglin:adapted_penglin",
+		"announcement": "You have evolved... Best check your origin again..."
+	}
+}
